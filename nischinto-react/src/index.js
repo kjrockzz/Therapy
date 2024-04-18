@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/style.scss';
 import './sass/custom.scss';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
