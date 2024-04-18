@@ -28,21 +28,10 @@ const Appointment3 = ({ data, varient }) => {
     event.preventDefault();
     setLoading(true);
     const formData = new FormData(event.target);
-    formData.append("access_key", "fcc74231-656a-425b-a54f-aff38354fadb");
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+    alert("Appointment Booked")
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
+    
       setFormData({
         name: '',
         email: '',
@@ -53,8 +42,7 @@ const Appointment3 = ({ data, varient }) => {
       });
       setLoading(false)
     }
-  };
-
+  
   return (
     <section id="appointment" className="st-gray-bg1">
       <div className="st-height-b120 st-height-lg-b80" />
