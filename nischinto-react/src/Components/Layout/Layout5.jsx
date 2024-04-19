@@ -6,11 +6,11 @@ import Footer from '../Footer/Footer';
 // import '../../sass/demo/theme_type2.scss';
 
 const headerData = {
-  logo: '/images/dental/logo2.png',
+  logo: '',
 };
 
 const footerData = {
-  logo: '/images/dental/logo2.png',
+  logo: '',
   subTitle:
     ' Lorem ipsum dolor sit consectet adipisicing sed do eiusmod temp incididunt ut labore. Lorem Ipsum is simply dummy.',
 };

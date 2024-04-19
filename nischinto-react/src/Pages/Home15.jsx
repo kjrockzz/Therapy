@@ -173,7 +173,7 @@ const testimonialData = {
 
 const specialistData = {
   sectionHeadingData: {
-    title: ` Professional staff at our <br/><span class="st-pink"> dental </span> hospital`,
+    title: ` Professional staff at for <br/><span class="st-pink"> Therapy  </span> session`,
   },
   doctors: [
     {
