@@ -18,7 +18,7 @@ const heroData = {
   text: 'Our service and the work efficiency of our doctors are the <br /> reasons for our success.',
   imgSrc: '/img/pic1.jpg',
   // imgSrc: '/images/dental/hero-img.jpg',
-  videoSrc: 'https://www.youtube.com/embed/_oIlv59bTL4',
+  videoSrc: 'https://www.youtube.com/watch?v=p6coIEWrNpQ',
 };
 
 const aboutData = {
